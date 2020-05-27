@@ -1,7 +1,8 @@
 # OpenOX MKI: OSHW Oxygen Concentrator
 
-**OpenOx** is a project of open source hardware oxygen concentrator. It has a simple design and is optimized for fast production.The oxygen concentration level of the output gas ranges from 85%
-to 95%. Flow from 1 to 6 LPM. The oxygen is delivered to the patient through the use of a nasal cannula. The OpenOx concentrator uses a molecular sieve and pressure swing adsorption methodology to produce the oxygen gas output. Ambient air enters the device, is filtered and then compressed. This compressed air is then directed toward one of two nitrogen adsorbing sieve beds. Concentrated oxygen exits the opposite end of the active sieve bed and is directed into an oxygen reservoir where it is delivered to the patient.
+![General](general-view.jpg)
+
+**OpenOx** is a project of open-source hardware oxygen concentrator. It has a simple design and is optimized for fast production. The oxygen concentration level of the output gas ranges from 85% to 95%. Flow from 1 to 6 LPM. The oxygen is delivered to the patient through the use of a nasal cannula. The OpenOx concentrator uses a molecular sieve and pressure swing adsorption methodology to produce the oxygen gas output. Ambient air enters the device, is filtered and then compressed. This compressed air is then directed toward one of two nitrogen adsorbing sieve beds. Concentrated oxygen exits the opposite end of the active sieve bed and is directed into an oxygen reservoir where it is delivered to the patient.
 
 
 ### Technical Specification
@@ -31,8 +32,8 @@ Currently, building instructions are placed on Google drive, please check out th
 
 ### Support or Contact
 
-If you have any questions, as us directly, via e-mail info@hacklab.kiev.ua. We are always looking for volounteers to:
-* Build their own design and share changes, to make OpenOx better
+If you have any questions, as us directly, via e-mail info@hacklab.kiev.ua. We are always looking for volunteers to:
+* Build your design and share changes, to make OpenOx better
 * Improve documentation
 
 Check out our [issues list](https://github.com/hacklabkyiv/openox/issues).
