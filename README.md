@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+# OpenOX MKI: OSHW Oxygen Concentrator
 
-You can use the [editor on GitHub](https://github.com/hacklabkyiv/openox/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+**OpenOx** is a project of open source hardware oxygen concentrator. It has a simple design and is optimized for fast production.The oxygen concentration level of the output gas ranges from 85%
+to 95%. Flow from 1 to 6 LPM. The oxygen is delivered to the patient through the use of a nasal cannula. The OpenOx concentrator uses a molecular sieve and pressure swing adsorption methodology to produce the oxygen gas output. Ambient air enters the device, is filtered and then compressed. This compressed air is then directed toward one of two nitrogen adsorbing sieve beds. Concentrated oxygen exits the opposite end of the active sieve bed and is directed into an oxygen reservoir where it is delivered to the patient.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Technical Specification
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+OpenOx has flexible and modular design, therefore techical specification can vary depending on choosen components. In basic configuration they are:
 
-```markdown
-Syntax highlighted code block
+| Property            | Value            |
+| --------------------| ---------------- |
+| Max oxygen flow     | 6 LPM            |
+| Oxygen concentration| 85-95 %          |
+| Power consumption   | 580 W            |
+| Dimensions          | 550mmx400mmx300mm|
+| Weight              | 20 kg            |
 
-# Header 1
-## Header 2
-### Header 3
+### Documentation and building instructions
 
-- Bulleted
-- List
+Currently, building instructions are placed on Google drive, please check out this link
+[documentation](https://docs.google.com/document/d/1ixzttdHdoLdcEha1TVJCyJB47DOLL0A6jboofB66MYc/edit?usp=sharing). We are in progress of moving it here. You can always help us to polish the documentation, feel free to join.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hacklabkyiv/openox/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+* General information and building instructions: [link](https://docs.google.com/document/d/1ixzttdHdoLdcEha1TVJCyJB47DOLL0A6jboofB66MYc/edit?usp=sharing)
+* Autodesk Fusion 360 project: https://a360.co/2zARV0g
+* BOM: [link](https://docs.google.com/spreadsheets/d/10ZUSy3DPvSKDeT9YbCROi2vXnXLKsUdeljT3vWMD914/edit?usp=sharing)
+* Motherboard(Arduino Mega shield): https://github.com/hacklabkyiv/openox-pcb
+* Firmware: https://github.com/hacklabkyiv/openox-fw
+* Ultrasonic oxygen concentration sensor PCB(WIP): https://github.com/hacklabkyiv/ultrasonic-oxygen-sensor-pcb
+* Ultrasonic oxygen concentration sensor firmware(WIP): https://github.com/hacklabkyiv/ultrasonic-oxygen-sensor-pcb
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+If you have any questions, as us directly, via e-mail info@hacklab.kiev.ua. We are always looking for volounteers to:
+* Build their own design and share changes, to make OpenOx better
+* Improve documentation
+
+Check out our [issues list](https://github.com/hacklabkyiv/openox/issues).
