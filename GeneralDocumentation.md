@@ -87,7 +87,7 @@ An important stage in the PSA system is the removal of moisture from the compres
 
 We have failed several times, “killing” zeolite during long-term test of our design, when it was operated without precise water-removal stage. That is why we have added several water removal stages. First one is just after pneumatic water removal. It is conventional water filter capsule, filled with silicagel.
 
-![](images/SilicaGelPrefilter.png)
+![](images/SilicaGelPrefilter.jpg)
 
 The second stage is inside adsorption beds.
 
